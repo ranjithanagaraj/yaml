@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: spring-redis-image
+        image: ranjithanagaraj/spring-redis-image
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8086
